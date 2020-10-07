@@ -1,0 +1,17 @@
+{
+  "name": "nextjsproyectpart4",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "cross-env MY_SECRET=1234 MY_STEP=start next start"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "next": "9.5.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
